@@ -1,0 +1,70 @@
+/* Header */
+  .header__logo-box {
+    width: 26rem;
+  }
+
+  .logo-image {
+    width: 24.5rem;
+    padding-left: 2.5rem;
+  }
+
+  .logo-text {
+    font-size: 2.4rem;
+    padding-left: 2rem;
+  }
+
+  .header__text-box {
+    left: 6rem;
+  }
+
+  .title-primary--main {
+    font-size: 9rem;
+    letter-spacing: 4px;
+  }
+
+  .title-primary--sub {
+    font-size: 3rem;
+  }
+
+  .main-nav {
+    display: block;
+  }
+
+  .nav-icon {
+    display: none;
+  }
+
+/* Section About Us */
+
+  .about-card__image {
+    flex-basis: 50%;
+    width: 50%;
+  }
+
+  .about-card__text {
+    flex-basis: 50%;
+    font-size: 2.4rem;
+  }
+
+/* Footer */
+
+  .footer__inner {
+    flex-direction: row;
+  }
+
+  .footer__hours {
+    font-size: 1.8rem;
+    margin-top: 0;
+  }
+
+  .footer__logo-box {
+    width: 28rem;
+  }
+
+  .footer__social {
+    margin-top: 0;
+  }
+
+  .credits {
+    font-size: 1.8rem;
+  }
