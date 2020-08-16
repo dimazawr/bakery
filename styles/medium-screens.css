@@ -1,47 +1,47 @@
 /* Header */
-  .header__logo-box {
+  .logo {
     width: 26rem;
   }
 
-  .logo-image {
+  .logo__image {
     width: 24.5rem;
     padding-left: 2.5rem;
   }
 
-  .logo-text {
+  .logo__text {
     font-size: 2.4rem;
     padding-left: 2rem;
   }
 
-  .header__text-box {
+  .text-box {
     left: 6rem;
   }
 
-  .title-primary--main {
+  .text-box__title-primary--main {
     font-size: 9rem;
     letter-spacing: 4px;
   }
 
-  .title-primary--sub {
+  .text-box__ttitle-primary--sub {
     font-size: 3rem;
   }
 
-  .main-nav {
+  .nav {
     display: block;
   }
 
-  .nav-icon {
+  .nav__icon {
     display: none;
   }
 
 /* Section About Us */
 
-  .about-card__image {
+  .about__card__image {
     flex-basis: 50%;
     width: 50%;
   }
 
-  .about-card__text {
+  .about__card__text {
     flex-basis: 50%;
     font-size: 2.4rem;
   }
@@ -57,7 +57,7 @@
     margin-top: 0;
   }
 
-  .footer__logo-box {
+  .footer__logo {
     width: 28rem;
   }
 

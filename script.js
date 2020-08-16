@@ -1,30 +1,30 @@
 // Variables
-const toggler = document.querySelector(".nav-icon");
-const menu = document.querySelector(".main-nav");
-const logoBox = document.querySelector(".header__logo-box");
-const menuList = document.querySelector(".main-nav__list");
+const toggler = document.querySelector(".nav__icon");
+const menu = document.querySelector(".nav");
+const logoBox = document.querySelector(".logo");
+const menuList = document.querySelector(".nav__list");
 const widthChange = window.matchMedia("(min-width: 767.98px)");
 
 
 // Logic for hamburger icon and nav-menu styling
 toggler.addEventListener("click", function(){
-  if(menu.classList.contains("main-nav--is-active") && toggler.classList.contains("nav-icon--close")){
-    menu.classList.remove("main-nav--is-active");
-    toggler.classList.remove("nav-icon--close");
-    logoBox.classList.remove("header__logo-box--nav-opened");
+  if(menu.classList.contains("nav--is-open") && toggler.classList.contains("nav__icon--close")){
+    menu.classList.remove("nav--is-open");
+    toggler.classList.remove("nav__icon--close");
+    logoBox.classList.remove("logo--nav-opened");
   } else {
-    menu.classList.add("main-nav--is-active");
-    toggler.classList.add("nav-icon--close");
-    logoBox.classList.add("header__logo-box--nav-opened");
+    menu.classList.add("nav--is-open");
+    toggler.classList.add("nav__icon--close");
+    logoBox.classList.add("logo--nav-opened");
   }
 });
 
 // Changes nav-list styling when hits 767.98px
 function changeMenuListStyle(mediaWidth) {
   if (mediaWidth.matches) {
-    menuList.classList.remove("main-nav__list--mobile");
+    menuList.classList.remove("nav__list--mobile");
   } else {
-    menuList.classList.add("main-nav__list--mobile");
+    menuList.classList.add("nav__list--mobile");
   }
 }
 changeMenuListStyle(widthChange);

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html class="page" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,84 +14,85 @@
     <link rel="stylesheet" href="styles/large-screens.css" media="(min-width: 1154.98px)">
     <script src="https://kit.fontawesome.com/fea8d287ec.js"></script>
   </head>
-  <body>
+  <body class="page__body">
     <header class="header">
-      <div class="header__logo-box">
-        <a href="#"><img src="img/logo.png" alt="Logo" class="logo-image"><span class="logo-text">The Big Loaf Bakery</span></a>
+      <div class="logo">
+        <a class="link" href="#">
+          <img src="img/logo.png" alt="Logo" class="logo__image">
+          <span class="logo__text">The Big Loaf Bakery</span>
+        </a>
       </div>
-      <div class="header__text-box">
-        <h1 class="title-primary">
-          <span class="title-primary--main">We make it*</span>
-          <span class="title-primary--sub">*We bake it</span>
+      <div class="text-box">
+        <h1 class="text-box__title-primary">
+          <span class="text-box__title-primary text-box__title-primary--main">We make it*</span>
+          <span class="text-box__title-primary text-box__title-primary--sub">*We bake it</span>
         </h1>
       </div>
-      <div class="nav-icon">
-        <span></span>
-      </div>
-      <nav class="main-nav">
-        <ul class="main-nav__list">
-          <li class="main-nav__item main-nav__item--about"><a href="#section-about">About</a></li>
-          <li class="main-nav__item main-nav__item--products"><a href="#section-products">Products</a></li>
-          <li class="main-nav__item main-nav__item--contact"><a href="#section-find">Find Us</a></li>
+      <nav class="nav">
+        <div class="nav__icon">
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item nav__item--about"><a class="link" href="#about">About</a></li>
+          <li class="nav__item nav__item--products"><a class="link" href="#products">Products</a></li>
+          <li class="nav__item nav__item--find-us"><a class="link" href="#find-us">Find Us</a></li>
         </ul>
       </nav>
     </header>
-    <main class="container">
-      <section id="section-about">
-        <div class="about-card about-card--1">
-          <img class="about-card__image" src="img/nadya-spetnitskaya-544606-unsplash.jpg" alt="The process of making bread">
-          <p class="about-card__text">The Big Loaf Bakery is a small family business which started from the passion for baking. We opened our first store in the beginning of 2019.</p>
+    <main class="container center">
+      <section id="about">
+        <div class="about__card about__card--1">
+          <img class="about__card__image" src="img/nadya-spetnitskaya-544606-unsplash.jpg" alt="The process of making bread">
+          <p class="about__card__text">The Big Loaf Bakery is a small family business which started from the passion for baking. We opened our first store in the beginning of 2019.</p>
         </div>
 
-        <div class="about-card about-card--2">
-          <img class="about-card__image" src="img/nathan-dumlao-512002-unsplash.jpg" alt="The process of making bread">
-          <p class="about-card__text">Our job is to produce fresh, tasty and the best bread in the city. From the traditional baguettes to gluten free pastry — we bake it all!</p>
+        <div class="about__card about__card--2">
+          <img class="about__card__image" src="img/nathan-dumlao-512002-unsplash.jpg" alt="The process of making bread">
+          <p class="about__card__text">Our job is to produce fresh, tasty and the best bread in the city. From the traditional baguettes to gluten free pastry — we bake it all!</p>
         </div>
       </section>
 
-      <section id="section-products" class="margin-top">
+      <section id="products" class="margin-top">
         <h2 class="section-title">Our products</h2>
 
         <div class="products-grid">
           <article class="card card--1">
             <figure class="card__content">
               <img class="card__image" src="img/florencia-viadana-723345-unsplash.jpg" alt="Loafs of bread on the counter">
-              <figcaption class="card__text"><a class="card__text--link" href="#">Bread</a></figcaption>
+              <figcaption class="card__text"><a class="link card__link" href="#">Bread</a></figcaption>
             </figure>
           </article>
 
           <article class="card card--2">
             <figure class="card__content">
               <img class="card__image" src="img/etienne-pauthenet-fbr7RVySrgI-unsplash.jpg" alt="Two hamburgers on the table">
-              <figcaption class="card__text"><a class="card__text--link" href="#">Lunch</a></figcaption>
+              <figcaption class="card__text"><a class="link card__link" href="#">Lunch</a></figcaption>
             </figure>
           </article>
 
           <article class="card card--3">
             <figure class="card__content">
               <img class="card__image" src="img/ting-tian-tuLxBMYGfwU-unsplash.jpg" alt="Tiramisu cake with blueberries on the plate">
-              <figcaption class="card__text"><a class="card__text--link" href="#">Cakes</a></figcaption>
+              <figcaption class="card__text"><a class="link card__link" href="#">Cakes</a></figcaption>
             </figure>
           </article>
 
           <article class="card card--4">
             <figure class="card__content">
               <img class="card__image" src="img/josh-wilburne-dE7wn2yzT4g-unsplash.jpg" alt="plate of glazed bread near mugs on tabletop">
-              <figcaption class="card__text card__text--dif"><a class="card__text--link" href="#">Pastry</a></figcaption>
+              <figcaption class="card__text card__text--dif"><a class="link card__link" href="#">Pastry</a></figcaption>
             </figure>
           </article>
 
         </div>
       </section>
 
-      <section id="section-find" class="margin-top">
+      <section id="find-us" class="margin-top">
         <h2 class="section-title">Find Us</h2>
-        <div class="section-find__content margin-top--s">
-          <img class="section-find__image" src="img/jay-wennington-506319-unsplash.jpg" alt="Loafs of bread hanged on the wall">
-          <div class="section-find__text">
-            <p class="section-find__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit,cat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <a href="#" class="section-find__links">16A Baker street<br>Around the world<br> Your city,00100</a><br>
-
+        <div class="find-us__content margin-top--s">
+          <img class="find-us__image" src="img/jay-wennington-506319-unsplash.jpg" alt="Loafs of bread hanged on the wall">
+          <div class="find-us__text">
+            <p class="find-us__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit,cat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="#" class="link find-us__address">16A Baker street<br>Around the world<br> Your city,00100</a><br>
           </div>
         </div>
       </section>
@@ -105,17 +106,17 @@
             <p class="hours-paragraph">Sat 10:00-16:00</p>
           </div>
         </div>
-        <div class="footer__logo-box">
-          <a href="#"><img class="logo-image" src="img/logo.png" alt="Logo"><span class="logo-text">The Big Loaf Bakery</span></a>
+        <div class="footer__logo">
+          <a class="link" href="#"><img class="logo__image" src="img/logo.png" alt="Logo"><span class="logo__text">The Big Loaf Bakery</span></a>
         </div>
         <div class="footer__social">
-          <a class="fab fa-facebook fa-4x icon" href="https://www.facebook.com"></a>
-          <a class="fab fa-instagram fa-4x icon" href="https://www.instagram.com"></a>
-          <a class="fas fa-envelope fa-4x icon" href="mailto:bigloaf@gmail.com" ></a>
+          <a class="link fab fa-facebook fa-4x icon" href="https://www.facebook.com"></a>
+          <a class="link fab fa-instagram fa-4x icon" href="https://www.instagram.com"></a>
+          <a class="link fas fa-envelope fa-4x icon" href="mailto:bigloaf@gmail.com" ></a>
         </div>
       </div>
       <div class="footer__outer">
-        <p class="credits">Project is made and designed by dimazawr</p><a href="#" class="fab fa-github fa-3x icon"></a>
+        <p class="credits">Project is made and designed by dimazawr</p><a href="#" class="link fab fa-github fa-3x icon"></a>
       </div>
     </footer>
     <script type="text/javascript" src="script.js">

@@ -1,10 +1,10 @@
 /* Section Find Us */
-  .section-find__image {
+  .find-us__image {
     flex-basis: 60%;
     width: 60%;
   }
 
-  .section-find__text {
+  .find-us__text {
     flex-basis: 40%;
     font-size: 2.5rem;
   }
